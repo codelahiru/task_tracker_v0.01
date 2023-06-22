@@ -1,11 +1,19 @@
 import Header from './components/Header'
 
-function App() {
+// function App() {
+//   return (
+//     <div className="container">
+//       <Header />
+//     </div>
+//   );
+// }
+
+const App = () => {
   return (
     <div className="container">
       <Header />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
