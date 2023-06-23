@@ -6,7 +6,7 @@ const Button = ({color, text}) => {
   //    console.log('click1');
   // }
 
-    const onClick = () => console.log('click2');
+    const onClick = () => console.log('click2'); // use of arrow func
 
   
   return (
