@@ -55,6 +55,12 @@ const Tasks = () => {
             day: 'Day 3',
             reminder: false
         },
+        {
+            id: 4,
+            text: 'Reminder 4',
+            day: 'Day 4',
+            reminder: true
+        },
     ])
   return (
   <>
