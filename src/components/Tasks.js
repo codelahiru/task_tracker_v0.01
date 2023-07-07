@@ -1,3 +1,4 @@
+import { FOCUSABLE_SELECTOR } from "@testing-library/user-event/dist/utils";
 import { useState } from "react";
 
 // const tasks = [
@@ -60,6 +61,12 @@ const Tasks = () => {
             text: 'Reminder 4',
             day: 'Day 4',
             reminder: true
+        },
+        {
+            id: 5,
+            text: 'Reminder 5',
+            day: 'Day 5',
+            reminder: FOCUSABLE_SELECTOR
         },
     ])
   return (
